@@ -4400,8 +4400,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1098050682}
   - {fileID: 1941874324}
-<<<<<<< HEAD
   - {fileID: 1541013649}
-=======
-  - {fileID: 85507353}
->>>>>>> e40e8f31c054fecc5a54fffdec20bc0c9f33258d
+

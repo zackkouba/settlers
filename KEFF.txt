@@ -1,0 +1,17 @@
+To Pull:
+
+git pull origin main 
+
+*main is the name of branch*
+
+To Push
+*to add all changes or you can do specific files instead of dot . = working directory*
+*if you forget -m you will go into vim use :q! to exit*
+
+git add .
+git commit -m "message"
+git push origin main
+
+*if merge conflicts happen youll figure it out*
+
+

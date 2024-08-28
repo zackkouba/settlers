@@ -90,6 +90,14 @@ public class PlayerMovement : MonoBehaviour
             }
         } else if (!grounded)
         {
+            if (sprinting)
+            {
+                rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier * sprintMultiplier, ForceMode.Force);
+            }
+            else
+            {
+                rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+            }
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
 
         }

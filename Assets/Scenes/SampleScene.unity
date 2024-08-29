@@ -441,8 +441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   orientation: {fileID: 712456384}
-  groundDrag: 4
-  jumpForce: 6
+  groundDrag: 5
+  jumpForce: 7
   jumpCooldown: 0.25
   airMultiplier: 0.4
   sprintMultiplier: 50

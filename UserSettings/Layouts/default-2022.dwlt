@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 589
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 254
     height: 630
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,15 +329,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\suade\repos\Unity\settlers
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 085a0000
-    m_LastClickedID: 23048
+    m_SelectedIDs: 065a0000
+    m_LastClickedID: 23046
     m_ExpandedIDs: 00000000005a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_ExpandedIDs: f4d4ffff76d5ffffc8d5ffff9ad9ffffded9ffff52daffff96daffff98dbffff30fbffff7e590000bc590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -914,9 +914,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.665585, y: 0.8780923, z: 2.116362}
+    m_Target: {x: 9.791023, y: -5.299077, z: 1.8482132}
     speed: 2
-    m_Value: {x: 14.665585, y: 0.8780923, z: 2.116362}
+    m_Value: {x: 9.791023, y: -5.299077, z: 1.8482132}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -962,13 +962,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19386855, y: 0.7382832, z: -0.23837514, w: 0.60044795}
+    m_Target: {x: 0.5886861, y: 0.3274384, z: -0.28219485, w: 0.68308586}
     speed: 2
-    m_Value: {x: 0.19386853, y: 0.73828316, z: -0.23837513, w: 0.6004479}
+    m_Value: {x: 0.58868396, y: 0.3274372, z: -0.2821938, w: 0.68308336}
   m_Size:
-    m_Target: 7.9935775
+    m_Target: 16.6217
     speed: 2
-    m_Value: 7.9935775
+    m_Value: 17.404922
   m_Ortho:
     m_Target: 0
     speed: 2

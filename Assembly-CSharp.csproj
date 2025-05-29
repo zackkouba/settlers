@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\ProjectileGun.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\DamageGun.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

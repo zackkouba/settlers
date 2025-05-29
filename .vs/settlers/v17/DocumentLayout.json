@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|c:\\users\\suade\\repos\\unity\\settlers\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|C:\\Users\\suade\\repos\\Unity\\settlers\\assets\\scripts\\damagegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|C:\\Users\\suade\\repos\\Unity\\settlers\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7096D9F-EB54-0405-453C-74F040585671}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DamageGun.cs",
+              "DocumentMoniker": "C:\\Users\\suade\\repos\\Unity\\settlers\\Assets\\Scripts\\DamageGun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamageGun.cs",
+              "ToolTip": "C:\\Users\\suade\\repos\\Unity\\settlers\\Assets\\Scripts\\DamageGun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamageGun.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:06:04.774Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +44,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gun.cs",
               "ToolTip": "C:\\Users\\suade\\repos\\Unity\\settlers\\Assets\\Scripts\\Gun.cs",
               "RelativeToolTip": "Assets\\Scripts\\Gun.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBMAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:05:37.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\suade\\repos\\Unity\\settlers\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -43,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:05:32.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:05:32.334Z"
             }
           ]
         }

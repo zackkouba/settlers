@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,6 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public float sprintMultiplier;
     bool readyToJump = true;
     bool sprinting = false;
+
+    [Header("Speedometer")]
+    public TextMeshProUGUI currentSpeedText;
+    private float currentSpeed;
+    public float updateInterval = 1f;
+    private float timeSinceLastUpdate = 0f;
+
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -40,6 +48,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+
+        timeSinceLastUpdate += Time.deltaTime;
+
+        if (currentSpeedText != null && timeSinceLastUpdate >= updateInterval)
+        {
+            currentSpeedText.SetText((new Vector2(rb.velocity.x, rb.velocity.z).magnitude) * 100 + " m/s");
+            timeSinceLastUpdate = 0f;
+        }
+
+
+
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
         Myinput();
         SpeedControl();

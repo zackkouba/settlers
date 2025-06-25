@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentSpeedText != null && timeSinceLastUpdate >= updateInterval)
         {
-            currentSpeedText.SetText((new Vector2(rb.velocity.x, rb.velocity.z).magnitude) * 100 + " m/s");
+            currentSpeedText.SetText(Math.Truncate((new Vector2(rb.velocity.x, rb.velocity.z).magnitude) * 100) + " m/s");
             timeSinceLastUpdate = 0f;
         }
 
@@ -61,6 +61,8 @@ public class PlayerMovement : MonoBehaviour
 
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
         Myinput();
+        rb.drag = groundDrag;
+        /*
         SpeedControl();
         if(grounded)
         {
@@ -69,11 +71,12 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.drag = 0;
         }
+        */
     }
 
     private void FixedUpdate()
     {
-        MovePlayer();
+        MovePlayerNoSprinting();
     }
 
     private void Myinput() {
@@ -120,6 +123,13 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
 
         }
+    }
+
+    private void MovePlayerNoSprinting()
+    {
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force); 
+
     }
 
     private void SpeedControl()

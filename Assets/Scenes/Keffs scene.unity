@@ -650,11 +650,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e73a8263807f0148877be2f32c79824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 4
   orientation: {fileID: 712456384}
   groundDrag: 5
-  jumpForce: 7
-  jumpCooldown: 0.25
+  jumpForce: 9
+  jumpCooldown: 0.1
   airMultiplier: 0.4
   sprintMultiplier: 50
   currentSpeedText: {fileID: 1782158113}
@@ -1441,8 +1441,8 @@ Transform:
   m_GameObject: {fileID: 1164615171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.22325438, y: -1.2780974, z: 0.67141485}
-  m_LocalScale: {x: 60.205, y: 1, z: 60.205}
+  m_LocalPosition: {x: 0.22324, y: -1.2780974, z: 0.67137}
+  m_LocalScale: {x: 2232.381, y: 1, z: 2994.4348}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
